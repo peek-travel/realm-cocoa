@@ -85,7 +85,6 @@ let package = Package(
                 "Realm/RLMUtil.mm",
 
                 // Sync source files
-                "Realm/NSError+RLMSync.m",
                 "Realm/RLMApp.mm",
                 "Realm/RLMAPIKeyAuth.mm",
                 "Realm/RLMBSON.mm",
