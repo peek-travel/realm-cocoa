@@ -83,6 +83,7 @@ let package = Package(
                 "Realm/RLMThreadSafeReference.mm",
                 "Realm/RLMUpdateChecker.mm",
                 "Realm/RLMUtil.mm",
+                "Realm/RLMUUID.mm",
 
                 // Sync source files
                 "Realm/RLMApp.mm",
