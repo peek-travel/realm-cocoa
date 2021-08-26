@@ -4,13 +4,6 @@ x.y.z Release notes (yyyy-MM-dd)
 * None.
 
 ### Fixed
-* <How to hit and notice issue? what was the impact?> ([#????](https://github.com/realm/realm-cocoa/issues/????), since v?.?.?)
-* None.
-* Fix crash in `MongoCollection.findOneDocument(filter:)` that occurred when no results were
-  found for a given filter.
-* Some of the SwiftUI property wrappers incorrectly required objects to conform
-  to ObjectKeyIdentifiable rather than Identifiable.
-* Work around Xcode 13 beta 3+ shipping a broken swiftinterface file for Combine on 32-bit iOS.
 * Fix crash in `RLMSyncConfiguration.initWithUser` error mapping when a user is disabled/deleted from MongoDB Realm dashboard.
   ([Cocoa #7399](https://github.com/realm/realm-cocoa/issues/7399)
 
@@ -21,7 +14,7 @@ x.y.z Release notes (yyyy-MM-dd)
 * APIs are backwards compatible with all previous releases in the 10.x.y series.
 * Carthage release for Swift is built with Xcode 12.5.1.
 * CocoaPods: 1.10 or later.
-* Xcode: 12.2-13.0 beta 3.
+* Xcode: 12.2-13.0 beta 5.
 
 ### Internal
 * Upgraded realm-core from ? to ?
