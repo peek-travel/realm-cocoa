@@ -264,6 +264,22 @@ class ModernPrimaryOptionalObjectIdObject: Object, ModernPrimaryKeyObject {
     @Persisted(primaryKey: true) var pk: ObjectId?
 }
 
+class ModernPrimaryIntEnumObject: Object, ModernPrimaryKeyObject {
+    @Persisted(primaryKey: true) var pk: ModernIntEnum
+}
+
+class ModernPrimaryOptionalIntEnumObject: Object, ModernPrimaryKeyObject {
+    @Persisted(primaryKey: true) var pk: ModernIntEnum?
+}
+
+class ModernIndexedIntEnumObject: Object {
+    @Persisted(indexed: true) var value: ModernIntEnum
+}
+
+class ModernIndexedOptionalIntEnumObject: Object {
+    @Persisted(indexed: true) var value: ModernIntEnum?
+}
+
 class ModernCustomInitializerObject: Object {
     @Persisted var stringCol: String
 
