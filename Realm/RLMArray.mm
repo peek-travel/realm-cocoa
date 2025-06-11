@@ -164,7 +164,7 @@
 
     NSUInteger i = 0;
     for (id object in _backingArray) {
-        copy->items[i++] = object;
+        copy->items.get()[i++] = object;
     }
 
     state->itemsPtr = (__unsafe_unretained id *)(void *)copy->items.get();
